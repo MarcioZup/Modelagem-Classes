@@ -60,6 +60,18 @@ public class Main {
         rasteiro1.receberDano(guerreiro1.aplicarDano());
         System.out.println(rasteiro1.exibirVida());
 
+        //instanciando classe Voadores e invocando métodos
+
+        Voadores voador1 = new Voadores("Gaviao", 1200, 80);
+        System.out.println(voador1.getVida());
+        voador1.aplicarDano();
+        System.out.println(voador1.getNome());
+        mago1.trocarNome("Corvo Negro");
+        System.out.println(voador1.getNome());
+        System.out.println(voador1.exibirVida());
+        voador1.receberDano(guerreiro1.aplicarDano());
+        System.out.println(voador1.exibirVida());
+
 
 
 
