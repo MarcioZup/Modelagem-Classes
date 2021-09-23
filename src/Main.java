@@ -37,7 +37,17 @@ public class Main {
         guerreiro1.receberDano(125);
         System.out.println(guerreiro1.exibirVida());
 
-        //instanciando classe Guerreiros e invocando métodos
+        //instanciando classe Inimigos e invocando métodos
+
+        Inimigos inimigo1 = new Inimigos("Esqueleto", 500);
+
+        System.out.println(inimigo1.getNome());
+        inimigo1.trocarNome("Coringa");
+        System.out.println(inimigo1.getNome());
+        System.out.println(inimigo1.exibirVida());
+        inimigo1.receberDano(guerreiro1.aplicarDano());
+        System.out.println(inimigo1.exibirVida());
+
 
 
 
