@@ -48,6 +48,23 @@ public class Main {
         inimigo1.receberDano(guerreiro1.aplicarDano());
         System.out.println(inimigo1.exibirVida());
 
+        //instanciando classe Rasteiros e invocando métodos
+
+        Rasteiros rasteiro1 = new Rasteiros("Escamoso", 750, 130);
+        System.out.println(rasteiro1.getVida());
+        rasteiro1.aplicarDano();
+        System.out.println(rasteiro1.getNome());
+        mago1.trocarNome("Lagarto");
+        System.out.println(rasteiro1.getNome());
+        System.out.println(rasteiro1.exibirVida());
+        rasteiro1.receberDano(guerreiro1.aplicarDano());
+        System.out.println(rasteiro1.exibirVida());
+
+
+
+
+
+
 
 
 
